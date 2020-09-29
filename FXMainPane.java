@@ -18,8 +18,6 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
 
-//import javafx.stage.Stage;
-//import javafx.application.Application;
 /**
  * This panel is the basic panel, inside which other panels are placed.  
  * Before beginning to implement, design the structure of your GUI in order to 
@@ -34,18 +32,18 @@ public class FXMainPane extends VBox {
 	//student Task #2:
 	//  declare five buttons, a label, and a text field
 	
-	//	Button 1 “Hello”
-	Button bouton1 ;//= new Button("Hello");
-	//	Button 2 “Howdy”
-	Button bouton2 ;//= new Button("Howdy");
-	//	Button 3 “Chinese“
-	Button bouton3 ;//= new Button("Chinese");
-	//	Button 4 “Clear”
-	Button bouton4 ;//= new Button("Clear");
-	//	Button 5 “Exit”
-	Button bouton5 ;//= new Button("Exit");
-	//	Button 6 “French“
-	Button bouton6 ;//= new Button("French");
+	//	Button 1 â€œHelloâ€
+	Button bouton1 ;
+	//	Button 2 â€œHowdyâ€
+	Button bouton2 ;
+	//	Button 3 â€œChineseâ€œ
+	Button bouton3 ;
+	//	Button 4 â€œClearâ€
+	Button bouton4 ;
+	//	Button 5 â€œExitâ€
+	Button bouton5 ;
+	//	Button 6 â€œFrenchâ€œ
+	Button bouton6 ;
 	
 	//	Instantiate label
 	Label feedback ;//= new Label("FeedBack: ");
